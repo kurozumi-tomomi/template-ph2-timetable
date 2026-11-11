@@ -38,4 +38,3 @@ SELECT code,name
 FROM courses
 WHERE teacher IS NULL
 ORDER BY code ASC
-

@@ -10,6 +10,7 @@ LEFT JOIN rooms AS r
 ON c.room = r.code 
 ORDER BY c.code
 
+
 -- 区画8：曜日ごとの授業数（曜日の順）
 SELECT day, COUNT(*) AS number
 FROM courses
